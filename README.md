@@ -49,7 +49,7 @@ PPS. I Want Greets Too!
 Release Contents
 ========================
 
-.
+```
 +-- readme.txt          this file
 +-- bin                 archive containing working demo
 |   +-- ptb_demo.exe   the DOS16 x86 demo executable (small eh?)
@@ -70,6 +70,7 @@ Release Contents
     +-- ncccolor.*     palette quantization
     +-- nccmisc.*      just simple crap
     +-- azr_ptb.ide    project file for Borland C++ 4.0
+```
 
 Greetz:
 =======
