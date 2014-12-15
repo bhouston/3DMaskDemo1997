@@ -1,10 +1,9 @@
 Phong-Texture-Bump Readme
 =========================
 
-Ben Houston [ plash / AZuRe ]
-Friday, March 14, 1997
-
-e-mail: 'ben@exocortex.org'
+- Ben Houston [ plash / AZuRe ]
+- Friday, March 14, 1997
+- e-mail: 'ben@exocortex.org'
 
 Here is the results of my first attempt at phong texture
 bump mapping.  I'm moving from BC4/TASM to Watcom and my next
@@ -47,36 +46,38 @@ and I'm done with it!!!
 
 PPS. I Want Greets Too!
 
-What's in the archives I hear you ask?
+Release Contents
+========================
 
-  root
-     readme.txt          this file
-     bin                 archive containing working demo
-          ptb_demo.exe   the demo executable (small eh?)
-          azure.raw      background (320x200)
-          bumpmap.raw    star heightmap (256x256)
-          texture.raw    star texture (256x256 32clr)
-          texture.pal    texture palette (32 clrs used)
-          refmap.raw     metal reflection map (grayscale)
-          mask.vtx       vertices for object
-          mask.nrm       vertex normals for object
-          mask.fct       facet indices for object
-          mask.txr       vertex texture coord for object
-     src                 archive containing all source code :)
-          ptb_demo.cpp   main c++ source for demo
-          ncctypes.h     types header for ncc library
-          nccgraph.*     graphics functions
-          ncctri.*       alot of triangle drawers
-          ncccolor.*     palette quantization
-          nccmisc.*      just simple crap
-          azr_ptb.ide    project file for Borland C++ 4.0
+.
++-- readme.txt          this file
++-- bin                 archive containing working demo
+|   +-- ptb_demo.exe   the DOS16 x86 demo executable (small eh?)
+|   +-- azure.raw      background (320x200)
+|   +-- bumpmap.raw    star heightmap (256x256)
+|   +-- texture.raw    star texture (256x256 32clr)
+|   +-- texture.pal    texture palette (32 clrs used)
+|   +-- refmap.raw     metal reflection map (grayscale)
+|   +-- mask.vtx       vertices for object
+|   +-- mask.nrm       vertex normals for object
+|   +-- mask.fct       facet indices for object
+|   +-- mask.txr       vertex texture coord for object
++-- src                 archive containing all source code :)
+    +-- ptb_demo.cpp   main c++ source for demo
+    +-- ncctypes.h     types header for ncc library
+    +-- nccgraph.*     graphics functions
+    +-- ncctri.*       alot of triangle drawers
+    +-- ncccolor.*     palette quantization
+    +-- nccmisc.*      just simple crap
+    +-- azr_ptb.ide    project file for Borland C++ 4.0
 
 Greetz:
+=======
 
-Mundane - in no particular order.
-Asch - that girl has driven me insane
-Olivier - am i bothering you?
-xyz - try to use some sentence structure :).
-TimJ/Vertigo - a guy who know's his phong.
-Phantasm - how goes the engine?
-Cyclone - object orientation overload.
+- Mundane - in no particular order.
+- Asch - that girl has driven me insane
+- Olivier - am i bothering you?
+- xyz - try to use some sentence structure :).
+- TimJ/Vertigo - a guy who know's his phong.
+- Phantasm - how goes the engine?
+- Cyclone - object orientation overload.
